@@ -1,0 +1,67 @@
+h2 {
+   color: rgb(255, 255, 255);
+   text-align: center;
+   font-size: x-large;
+   margin-top: 80px;
+
+}
+
+input {
+   margin-top: 50px;
+   display: block;
+   margin-right: auto;
+   margin-left: auto;
+   width: 250px;
+   height: 25px;
+   margin-bottom: 40px;
+   border-radius: 40px;
+   box-sizing: border-box;
+   background-color: rgb(255, 255, 255);
+}
+
+button {
+   display: block;
+   margin-right: auto;
+   margin-left: auto;
+   margin-top: 100px;
+   width: 150px;
+   height: 40px;
+   border-radius: 40px;
+   border: none;
+   font-family: inherit;
+   cursor: pointer;
+   background-color: rgb(255, 255, 255)
+}
+
+body {
+   background-image: url(../planilha/teste\ radiobras.png);
+   background-repeat: no-repeat;
+   background-size: 1511px;
+   background-position: top center;
+}
+
+A {
+   color: rgb(255, 255, 255);
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+   color: rgb(255, 255, 255);
+   font-size: 15px;
+   margin-top: 210px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.produto-container {
+   display: flex;
+   width: 100px;
+   justify-content: space-around;
+}
+
+@media screen and (max-width:768px) {
+   .produto-container {
+      width: 100%;
+      flex-direction: column;
+   }
+}
